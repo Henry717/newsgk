@@ -75,8 +75,7 @@
         <!-- 版权信息从这里结束，想要去掉版权的话 只需要注释掉这些部分就好啦 -->
         </figure>
       </div>
-    </div>
-  </body>
+      </body>
   <script src="https://jsd.onmicrosoft.cn/npm/nprogress@0.2.0/nprogress.js"></script>
   <link href="https://jsd.onmicrosoft.cn/npm/nprogress@0.2.0/nprogress.css" rel="stylesheet">
   <script src="./index.js"></script>
@@ -106,7 +105,7 @@
                 <div id="bottom-inner">
                    
                 
-                    <br>本站访问量:<span id="result1"></span>
+                    <br>本站总访问量:<span id="result1"></span>
 
                     -<span id="year"></span>
 
@@ -129,10 +128,5 @@
                     document.getElementById("result1").innerHTML = localStorage.pagecount;
 
 
-            //年份获取
-
-            var myDate = new Date();
-            var year = myDate.getFullYear();
-            document.getElementById('year').innerHTML = year;
 </script>
 </html>
